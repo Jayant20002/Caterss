@@ -1,0 +1,29 @@
+{
+  "name": "CATER-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "CATER-server": "file:",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.15.0",
+    "mongoose": "^8.0.3",
+    "natural": "^6.10.5",
+    "nodemailer": "^6.10.0",
+    "nodemon": "^3.1.0",
+    "stripe": "^14.23.0",
+    "stripe-cli": "^0.1.0",
+    "tensorflow": "^3.18.0",
+    "compromise": "^14.9.0"
+  }
+}
